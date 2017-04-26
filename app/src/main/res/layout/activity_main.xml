@@ -17,9 +17,9 @@
 
         <!--图片分辨率 300x300-->
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:alpha="0.5"
-            android:src="@drawable/black_squre"/>
+            android:src="@mipmap/black_squre"/>
     </FrameLayout>
 </LinearLayout>
