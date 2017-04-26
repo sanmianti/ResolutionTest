@@ -7,16 +7,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!--图片分辨率 360x18-->
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/qrcode_scan_line" />
-
     <!--图片分辨率 300x300-->
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:src="@drawable/black_squre"
-        />
+        android:alpha="0.5"
+        android:src="@drawable/black_squre"/>
 </FrameLayout>

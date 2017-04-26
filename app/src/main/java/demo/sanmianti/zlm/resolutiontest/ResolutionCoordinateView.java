@@ -11,7 +11,7 @@ import android.view.WindowManager;
 
 /**
  * @author zlm
- * @description description
+ * @description 根据像素大小画出坐标轴，以便直观看出view的大小。
  * @date 2017/4/26 17:14
  */
 public class ResolutionCoordinateView extends View {
