@@ -4,10 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
+        android:id="@+id/screen_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hello world"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"/>
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -20,6 +25,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="0.5"
-            android:src="@mipmap/black_squre"/>
+            android:src="@drawable/black_squre"/>
     </FrameLayout>
 </LinearLayout>
